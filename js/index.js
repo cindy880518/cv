@@ -16,7 +16,7 @@ $(function () {
     $('.icon-burger').toggleClass('open');
     //$('.navbar-collapse').stop().slideToggle();
 
-    $('a').removeClass('active');
+    $('a').removeClass('active');href
     $(this).addClass('active');
 
     if ($win.width() <= 990) {
@@ -28,13 +28,14 @@ $(function () {
     $('html,body').animate({ scrollTop: $(_href).offset().top }, 1200);
   });
 
-  //Main bt
-  $(".main .bt_blue").click(function(event) {
+  // Main bt
+  $(".main .bt_xxxx").click(function(event) {
     event.preventDefault();
     $("html, body").animate({
         scrollTop: $($(this).attr("href")).offset().top
       }, 1200);
   });
+
 
   //back-top
   $('.logo,.back-top').on('click', function (event) {

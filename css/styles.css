@@ -456,7 +456,7 @@ button:focus {
   height: auto;
   position: relative;
   font-family: "Helvetica Neue", "微軟正黑體";
-  background: url("../images/pink_bg.svg") right bottom no-repeat #fcfcfc;
+  background: url("../images/bg.svg") right bottom no-repeat #fcfcfc;
   background-size: 100%;
 }
 .kv section {
@@ -499,17 +499,36 @@ button:focus {
   width: 180px;
   height: 50px;
   line-height: 50px;
-  background: #4f71cc;
-  color: #fff !important;
+  background: #FFD306;
+  color:#3C3C3C !important;
   text-align: center;
   text-decoration: none;
   font-size: 1rem;
   z-index: 20;
 }
 .bt_blue:hover {
-  background: #77a9ff;
+  background: #7B7B7B;
   text-decoration: none;
-  color: #fff;
+  color:#FFFFFF !important;
+}
+
+.bt_xxxx {
+  display: block;
+  border-radius: 25px;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  background: #FFD306;
+  color:#3C3C3C !important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  z-index: 20;
+}
+.bt_xxxx:hover {
+  background: #7B7B7B;
+  text-decoration: none;
+  color:#FFFFFF !important;
 }
 
 @media (max-width: 1440px) {
@@ -682,7 +701,7 @@ img.pic {
 }
 
 .color-red {
-  color: #ff787e;
+  color: #FFD306;
 }
 
 .f34 {
@@ -1125,7 +1144,7 @@ ul.key_list li p {
   display: block;
   width: 130px;
   height: 7px;
-  background: #ff787e;
+  background: #FFD306;
   margin: 30px auto 0 auto;
 }
 .wrapper .txt {
